@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Adma</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="title_activity_otp">otp</string>
+    <string name="action_settings">Settings</string>
+    <string name="main_activity">This is our Main Activity</string>
+    <string name="another_activity">This is our Another Activity</string>
+    <string name="title_activity_navi">navi</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_nav_drawer">NavDrawerActivity</string>
+    <string name="title_activity_nav_darwer">NavDarwerActivity</string>
+    <string name="title_activity_nav_drawer_acitivity">NavDrawerAcitivity</string>
+    <string name="title_activity_home2">home2</string>
+
+
+</resources>
