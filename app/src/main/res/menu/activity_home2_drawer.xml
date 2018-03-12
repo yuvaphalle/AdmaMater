@@ -9,18 +9,24 @@
             <!--android:icon="@drawable/ic_menu_camera"-->
             <!--android:title="Import" />-->
         <item
-            android:id="@+id/dashboard"
-            android:icon="@drawable/dashboard"
-            android:title="DashBoard" />
+            android:id="@+id/aboutt"
+            android:icon="@drawable/college"
+            android:title="About" />
 
         <item
-            android:id="@+id/google"
+            android:id="@+id/faqq"
+            android:icon="@drawable/faq"
+            android:title="FAQ" />
+
+        <item
+            android:id="@+id/ugcc"
             android:icon="@drawable/event"
-            android:title="Google" />
-
-
+            android:title="UG Course" />
         <!--<item-->
-
+        <item
+            android:id="@+id/pgcc"
+            android:icon="@drawable/event"
+            android:title="PG Course" />
 
 
             <!--android:id="@+id/nav_slideshow"-->
@@ -32,17 +38,14 @@
             <!--android:title="Tools" />-->
     </group>
 
-    <!--<item android:title="Communicate">-->
-        <!--<menu>-->
-            <!--<item-->
-                <!--android:id="@+id/nav_share"-->
-                <!--android:icon="@drawable/ic_menu_share"-->
-                <!--android:title="Share" />-->
-            <!--<item-->
-                <!--android:id="@+id/nav_send"-->
-                <!--android:icon="@drawable/ic_menu_send"-->
-                <!--android:title="Send" />-->
-        <!--</menu>-->
-    <!--</item>-->
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/log"
+                android:icon="@drawable/cancel"
+                android:title="LogOut" />
+
+        </menu>
+    </item>
 
 </menu>

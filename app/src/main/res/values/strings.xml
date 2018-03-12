@@ -1,6 +1,12 @@
 <resources>
     <string name="app_name">Adma</string>
 
+
+    <array name="topics">
+        <item>Pay_Fees_Now</item>
+        <item>Pay_Fees_Later</item>
+    </array>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="Open">Open</string>
@@ -17,6 +23,480 @@
     <string name="title_activity_nav_darwer">NavDarwerActivity</string>
     <string name="title_activity_nav_drawer_acitivity">NavDrawerAcitivity</string>
     <string name="title_activity_home2">home2</string>
+
+
+    <array name="states">
+
+        <item>Select State*</item>
+        <item>Andra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chhattisgarh</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jammu and Kashmir</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Madya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Orissa</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Tripura</item>
+        <item>Uttaranchal</item>
+        <item>Uttar Pradesh</item>
+        <item>West Bengal</item>>
+
+    </array>
+
+    <string-array name="category">
+        <item>Select Category*</item>
+        <item>Scheduled Caste</item>
+        <item>Scheduled Tribe</item>
+        <item>Differently Abled</item>
+        <item>Defense</item>
+        <item>General</item>
+        <item>Kashmiri Migrants</item>
+    </string-array>
+
+    <string-array name="ugprog">
+        <item>Select Preference</item>
+        <item>BCA</item>
+        <item>BBA-IT</item>
+    </string-array>
+
+    <string-array name="pgprog">
+        <item>Select Preference</item>
+        <item>MCA</item>
+        <item>MBA-IT</item>
+    </string-array>
+
+    <string-array name="fmg">
+        <item>Father/Mother/Guardian*</item>
+        <item>Father</item>
+        <item>Mother</item>
+        <item>Guardian</item>
+    </string-array>
+
+    <string name="title_activity_faq1">faq1</string>
+
+
+    <string name="faqnote">
+        "Note:All details pertaining to any of the programmes (fee structure, duration,"
+        "programme structure/curriculum, etc.) are present under the respective programmes,"
+        "under the UG/PG Programmes section on the main menu."
+    </string>
+
+    <string name="faqanswer1">
+        "‘Adma Mater’ provides a way for candidates to apply for admission to the FRESHMAN YEAR "
+        "(commonly called FIRST YEAR) of any one of Magnum Technology College’s programmes and aids "
+        "the candidate in this procedure. The app also allows him/her to find out information "
+        "regarding the college and its different undergraduate and post graduate programmes.\n\n"
+
+        "‘Adma Mater’ is basically the equivalent of having a digital assistant constantly by "
+        "your side, who not only aids you in gaining admission but also receives timely updates "
+        "from the college itself and notifies you of them. PLEASE NOTE that if you are using "
+        "this app on your phone, you need not go out of your house for any part of the admission "
+        "process – except for giving the entrance exam (you shall be notified of your exam "
+        "center via the app itself through an electronic hall ticket, and you shall have to "
+        "report there before the time specified in the ticket at the exam date), for the group "
+        "discussion and personal interview, which happen on the same date (of which you shall "
+        "be notified via the app, but you shall have to report to the college campus in order "
+        "to be interviewed), and for the fee payment, in case you get selected (of which you "
+        "shall also be notified via the app).\n\n"
+
+    </string>
+
+    <string name="faqanswer2">
+        "In the unfortunate event of your phone getting stolen or misplaced, we do not want your "
+        "personal information (including sensitive details like where you live, your family’s "
+        "annual income, etc.) to fall in the hands of anyone who should not possess such "
+        "information. The compulsory sign in feature ensures that this doesn’t happen, for example, "
+        "if someone like a thief has your phone and even knows the unlock pattern/passcode, he/she "
+        "may not know the password to your Google account, preventing him from gaining your "
+        "information.\n\n"
+    </string>
+
+    <string name="faqanswer3">
+        "You should choose this app over the traditional way for a number of reasons. These include - \n\n"
+        "a) Automation – The app takes over your and relieves you of most responsibilities "
+        "relating to freshers’ admission. Automation matters a lot because this results in ease "
+        "and relaxation for the user; moreover, machines don’t make the same mistakes humans do, "
+        "indicating greater accuracy. \n\n"
+        "b) Security – As explained above in FAQ no. 2, the app is a more secure alternative as well.\n\n"
+        "c) Greater transparency – ‘Adma Mater’ also brings greater transparency in the admission "
+        "process, as you see first-hand EXACTLY how the admission procedure works. The app will "
+        "therefore be as honest and thorough in explaining the admission process to you as "
+        "perhaps an electronic brochure of the college – except, the app is more user friendly. \n\n"
+        "d) Saving overhead costs - like the cost of transportation, purchasing the form from "
+        "the college, etc.\n\n"
+    </string>
+
+    <string name="faqanswer4">
+        "It’s simple; all you have to do is register with your Gmail ID and enter certain "
+        "required details. Once registered, you can use ALL features of this app. Navigate "
+        "through the self explanatory menu options\n\n"
+    </string>
+
+    <string name="faqanswer5">
+        "Tap on the ‘Programmes’ section on the main menu, then tap on the name of the programme "
+        "you desire to gain admission to. Follow the simple, self-explanatory steps to get "
+        "yourself registered for the entrance exam.\n\n"
+    </string>
+
+    <string name="faqanswer6">
+        "Every student of this institute shall abide by the rules of this institute, which may be"
+        "updated from time to time. Admissions are subject to eligibility clearance from Magnum"
+        "Technology College’s admission department and will be confirmed only after payment of"
+        "prescribed fees. STUDENTS MAY CHOOSE TO APPLY FOR MULTIPLE PROGRAMMES, provided they are"
+        "eligible for application. However, since a student can only pursue one degree from MTC at"
+        "a time, if such a student gains admission to multiple programmes, he/she may choose any"
+        "of the programmes and take admission in it. Admissions will be cancelled in case of: \n\n"
+        "a) Not submitting the required documents in time. Submission of fake or incorrect documents\n\n"
+        "b) Failing to fulfil required eligibility criteria of the respective programme\n\n"
+        "c) Admissions sought by fraudulent means. Students carrying any backlog in the qualifying"
+        "examination\n\n The refund rules are as follows – \n\n"
+    </string>
+
+    <string name="faqanswer7">
+        "While ‘Adma Mater’ will notify you timely and regularly of any important dates in the"
+        "admission procedure, we do agree that you must have a reference of all the important dates.\n\n"
+    </string>
+
+    <string name="faqanswer8">
+        "The MTC Boys’ Hostel, which is situated in the Western Section of the campus, provides"
+        "accommodation to a total of 200 students. The MTC Girls’ Hostel, situated in the Eastern"
+        "Section of the campus, also provides accommodation to a total of 200 students."
+        "Applications must be made separately for spending one academic year at the hostel."
+        "Applications shall be entertained at a first - come, first - serve basis. Other factors"
+        "that shall be taken into consideration is state or country (in case of international"
+        "students) of applicant, behaviour in previous year(s) at the hostel (if applicable),"
+        "any existing backlogs (if applicable), and the age factor.\n\n"
+        "In case a student is unable to get hostel accommodation, he/she may try and get a hold"
+        "of a PG (Paying Guest) room which is in the vicinity of the campus. Fortunately, the"
+        "campus is situated in the heart of the city of Pune, meaning that there are lots of safe"
+        "colonies and apartments nearby. MTC has ties with certain PG owners to keep the"
+        "accommodation reserved for only students of our college. THE RESERVATION ONLY "
+        "STANDS FOR A PERIOD OF ONE MONTH FROM THE PROGRAMME COMMENCEMENT (varies programme"
+        "to programme – see ‘Programmes’ section in the main menu for more information), so be"
+        "quick to contact these PG owners. Applications here shall also be entertained at a first"
+        "- come, first - serve basis. All PG’s are within a 1.5 kilometre radius of the campus.\n\n"
+        "Furthermore, students may also opt to move into a flat (preferably with other students,"
+        "for reasons like safety and expense control). Many 1 BHK, 2 BHK, 3 BHK, and studio"
+        "apartments are available in the vicinity of the college. Brokers shall be able to get you"
+        "in touch with the flat/apartment owners.\n\n"
+    </string>
+
+    <string name="faqanswer9p1">
+        "There are no scholarships offered to Bachelor’s Degree students at MTC; the scholarship "
+        "details for Master’s programmes are – \n\n"
+    </string>
+    <string name="faqanswer9p2">
+        "\n\nEligibility\n\n"
+        "a) Merit Scholarship in the P.G. programme will be awarded to the topper of the first "
+        "semester of the program. In the subsequent semesters, the scholarship would be based on "
+        "academic excellence, a minimum GPA of 7.50 earned by the same student during the preceding "
+        "semester.\n\n"
+        "b) Only those students will be eligible for the award of Merit Scholarship who have "
+        "cleared the courses prescribed for the respective programme up to the stage of award "
+        "(i.e., they should not have any backlog).\n\n"
+        "c) The student who has been awarded merit scholarship by the institute shall not be "
+        "debarred from stipend or any financial assistance from any other source. However, if the "
+        "student is awarded any stipend or financial assistance from any other source, he/she shall "
+        "communicate the same through the Institute to the office of Student Affairs, located next "
+        "to the college reception.\n\n"
+        "d) There will be no income limit of the parents/guardians of the student(s) for the grant "
+        "of merit scholarship.\n\n"
+        "e) In case a student is eligible for more than one scholarship/freeship by the institute, "
+        "he/she shall be awarded only one scholarship/freeship as per his/her preference.\n\n"
+        "Selection\n\n"
+        "a)The award of merit scholarship for PG programmes shall be announced every year by the institute.\n\n"
+        "b)If a student declines or cancels his/her admission, the scholarship amount will not "
+        "be awarded to any other student but will be refunded by the institute to the University.\n\n"
+        "c)The scholarship amount will not be paid to a student. It will be transferred "
+        "directly to the Institute for the adjustment in academic fee. The cheque of the "
+        "scholarship amount will be given to the student for the last semester of the program.\n\n"
+        "Tie breaker\n\n"
+        "If two or more than two students have the same GPA/CGPA, then the weighted average of "
+        "academic score of 10th, 12th and graduation shall be considered for breaking the tie "
+        "for scholarship for the first semester.\n\n"
+        "Withdrawal\n\n"
+        "If a recipient of merit scholarship is found guilty of gross misconduct, his/her case, "
+        "after due warning shall be reported by the institute to the office of student affairs "
+        "for withdrawal of merit scholarship. The final decision in this regard will be taken "
+        "by the Director of the college.\n\n"
+    </string>
+
+    <string name="tableanswer7mtccet">
+        "May 29 at Pune\n\n"
+        "May 30 at Delhi\n\n"
+        "June 6 at Ahmedabad\n\n"
+        "June 7 at Kolkata"
+    </string>
+
+    <string name="tableanswer7mtcpgee">
+        "June 29 at Pune\n\n"
+        "June 30 at Delhi\n\n"
+        "July 7 at Ahmedabad\n\n"
+        "July 8 at Kolkata"
+    </string>
+
+    <string name="bgdesc">
+        "MTC, an autonomous college, celebrates its 3rd year as one of the newest institutes "
+        "in Maharashtra to offer high quality computer education. MTC is located in the heart "
+        "of the city of Pune. Our location, our broad portfolio of academic IT programmes, "
+        "our talented and diverse student body, and our dedicated faculty members work together "
+        "to create an educational experience that is relevant, enriching, and unique. If you are "
+        "considering IT education, we invite you to explore Magnum Technology College. MTC has "
+        "an outstanding IT infrastructure available to support the programmes besides its "
+        "excellent book collection and reference library. With an aim to provide industry "
+        "ready professionals, MTC helps build IT leaders for the IT industry worldwide.\n\n"
+        "MTC does not focus on studies alone – the college believes in your experience here "
+        "being one you will truly cherish. With many student clubs like the DebSoc (Debating "
+        "Society), the M.A.D. society (Music, Arts, and Dance society), the Sports Club, and "
+        "many more, our institute opens multiple doors for extra - curricular activities. Also "
+        "in place is an anti - ragging committee, composed of the college Director, Deputy "
+        "Director, and other senior staff members, to ensure safety of the students. The college "
+        "fest draws participants from all across the country, giving all an opportunity to "
+        "showcase their talents.\n\n"
+        "On extra - curriculars on the tech front, we have a software development lab specially "
+        "dedicated to students who wish to take on extra projects and develop mobile "
+        "applications besides their regular courses. MTC’s tech fest ‘Geekathon’ has been an "
+        "event that attracts speakers and prominent figures in the world of computers, "
+        "data, and cyber security to expose students to the real world developments in "
+        "these respective fields.\n\n"
+        "Our placement cell has quite impressively managed to bring MTC to the attention of "
+        "firms like Google, Facebook, Yahoo, Infosys, ONGC, and TCS, to name a few, in a "
+        "mere three years. With an average placement rate of 90% and an average package "
+        "of 3 lakh INR Bachelors Degree students and for 6.5 lakh INR for Masters, the "
+        "placement cell invites students pursuing bachelor’s and master’s degrees to try and "
+        "get into some of the biggest firms in the country."
+    </string>
+
+    <string name="visiondesc">
+        "Promoting international understanding through quality education."
+    </string>
+
+    <string name="missiondesc">
+        " • to contribute towards knowledge generation and dissemination\n\n"
+        "• to promote ethical and value-based learning\n\n"
+        "• to foster the spirit of national development\n\n"
+        "• to nurture creativity and encourage entrepreneurship\n\n"
+        "• to promote health and wellness amongst students, staff and the community\n\n"
+        "• to produce thought provoking leaders for the society\n\n"
+    </string>
+
+    <!--BCA Information-->
+    <string name="bcaresv">
+        "Within the sanctioned intake-\n\n"
+        "Scheduled Castes – 15%\n\n"
+        "Scheduled Tribes – 7.5%\n\n"
+        "Differently Abled – 3%\n\n"
+        "Serving/Retired Defense Personnel and their Children – 5%\n\n"
+        "Over and above the sanctioned intake:\n\n"
+		"Kashmiri Migrants – 2 Seats\n\n"
+        "International Students – 15%"
+    </string>
+
+    <string name="bcaprereq">
+        "A minimum of 55% aggregate or equivalent to that in Class 12 board exams or government"
+        "diploma in Engineering and Technology (50% or equivalent to that for SC/ST candidates)"
+        "from CBSE/ICSE/any state board of India."
+    </string>
+
+    <string name="bcaobj">
+        "BCA offers the prequalification for professionals heading for smart career in the IT"
+        "field, which measures up to international standards. On completing this course one can"
+        "do higher studies such as MCA, MBA, etc., in any UGC recognized universities or in any"
+        "other reputed institution in India or abroad"
+    </string>
+
+    <string name="bcasop">
+        "The assessment of the student for each examination is done, based on relative "
+        "performance. Maximum Grade Point (GP) is 10 corresponding to O (Outstanding). For all "
+        "courses, a student is required to pass both internal and external examination "
+        "separately with a minimum Grade Point of 4 corresponding to Grade P. Students securing "
+        "less than 40% absolute marks in each head of passing will be declared FAIL. The "
+        "University awards a degree to the student who has achieved a minimum CGPA of 4 out "
+        "of maximum of 10 CGPA for the programme."
+    </string>
+
+    <string name="bcasel">
+        "MTCCET (Magnum Technology College Common Entrance Test) at designated center, followed "
+        "by GDPI (Group Discussion and Personal Interview) of shortlisted students at the "
+        "college campus."
+    </string>
+
+    <string name="bcafee">
+        "An amount of 30,000/- INR has to be paid for each academic year, within ONE MONTH of"
+        "the announced date for fee payment. The entire programme shall hence cost INR 90,000/-"
+    </string>
+
+    <!--BBA-IT Information-->
+    <string name="bbaresv">
+        "Within the sanctioned intake-\n\n"
+        "Scheduled Castes – 15%\n\n"
+        "Scheduled Tribes – 7.5%\n\n"
+        "Differently Abled – 3%\n\n"
+        "Serving/Retired Defense Personnel and their Children – 5%\n\n"
+        "Over and above the sanctioned intake:\n\n"
+		"Kashmiri Migrants – 3 Seats\n\n"
+        "International Students – 15%"
+    </string>
+
+    <string name="bbaprereq">
+        "A minimum of 50% aggregate or equivalent to that in Class 12 board exams or government"
+        "diploma in Engineering and Technology (45% or equivalent to that for SC/ST candidates)"
+        "from CBSE/ICSE/any state board of India."
+    </string>
+
+    <string name="bbaobj">
+        "BBA (IT) is a perfect blend of Commerce, Management and IT courses heading for"
+        "smart careers in Business Administration with IT flavor. BBA (IT) offers opportunity"
+        "for an early entry into Management cadre, equipped with IT knowledge, to be trained"
+        "appropriately by the companies for their requirements. These students can also opt"
+        "for higher studies in India or abroad in Management field."
+    </string>
+
+    <string name="bbasop">
+        "The assessment of the student for each examination is done, based on relative "
+        "performance. Maximum Grade Point (GP) is 10 corresponding to O (Outstanding). For all "
+        "courses, a student is required to pass both internal and external examination "
+        "separately with a minimum Grade Point of 4 corresponding to Grade P. Students securing "
+        "less than 40% absolute marks in each head of passing will be declared FAIL. The "
+        "University awards a degree to the student who has achieved a minimum CGPA of 4 out "
+        "of maximum of 10 CGPA for the programme."
+    </string>
+
+    <string name="bbasel">
+        "MTCCET (Magnum Technology College Common Entrance Test) at designated center, followed "
+        "by GDPI (Group Discussion and Personal Interview) of shortlisted students at the "
+        "college campus."
+    </string>
+
+    <string name="bbafee">
+        "An amount of 30,000/- INR has to be paid for each academic year, within ONE MONTH of"
+        "the announced date for fee payment. The entire programme shall hence cost INR 90,000/-"
+    </string>
+
+    <!--MCA Information-->
+    <string name="mcaresv">
+        "Within the sanctioned intake-\n\n"
+        "Scheduled Castes – 15%\n\n"
+        "Scheduled Tribes – 7.5%\n\n"
+        "Differently Abled – 3%\n\n"
+        "Serving/Retired Defense Personnel and their Children – 5%\n\n"
+        "Over and above the sanctioned intake:\n\n"
+		"Kashmiri Migrants – 2 Seats\n\n"
+        "International Students – 15%"
+    </string>
+
+    <string name="mcaprereq">
+        "Graduate in any discipline of any statutory/recognized university with the equivalent"
+        "of a minimum of 55% marks (50% for SC/ST candidates)"
+    </string>
+
+    <string name="mcaobj">
+        "This programme will equip students with knowledge highly relevant to emerging"
+        "technologies. This programme aims to provide a comprehensive framework for understanding"
+        "by integrating theoretical foundations with extensive practical work in the labs and"
+        "hands-on experience.\n\n"
+        "The course offers following areas of specialization –\n\n"
+            "\t1. Software Development\n\n"
+            "\t2. Systems Administration\n\n"
+            "\t3. Systems Security\n\n"
+    </string>
+
+    <string name="mcasop">
+        "The assessment of the student for each examination is done, based on relative "
+        "performance. Maximum Grade Point (GP) is 10 corresponding to O (Outstanding). For all "
+        "courses, a student is required to pass both internal and external examination "
+        "separately with a minimum Grade Point of 4 corresponding to Grade P. Students securing "
+        "less than 40% absolute marks in each head of passing will be declared FAIL. The "
+        "University awards a degree to the student who has achieved a minimum CGPA of 4 out "
+        "of maximum of 10 CGPA for the programme."
+    </string>
+
+    <string name="mcasel">
+        "MTCPGEE (Magnum Technology College Post Graduate Entrance Examination) at designated"
+        "center, followed by GDPI (Group Discussion and Personal Interview) of shortlisted"
+        "students at the college campus."
+    </string>
+
+    <string name="mcafee">
+        "An amount of INR 45,000/- has to be paid for each academic year, within ONE MONTH of"
+        "the announced date for fee payment. The entire programme shall hence cost INR 90,000/-"
+    </string>
+
+    <!--MBA-IT Information-->
+    <string name="mbaresv">
+        "Within the sanctioned intake-\n\n"
+        "Scheduled Castes – 15%\n\n"
+        "Scheduled Tribes – 7.5%\n\n"
+        "Differently Abled – 3%\n\n"
+        "Serving/Retired Defense Personnel and their Children – 5%\n\n"
+        "Over and above the sanctioned intake:\n\n"
+		"Kashmiri Migrants – 3 Seats\n\n"
+        "International Students – 15%"
+    </string>
+
+    <string name="mbaprereq">
+        "Graduate in any discipline of any statutory/recognized university with the equivalent"
+        "of a minimum of 50% marks (45% for SC/ST candidates)"
+    </string>
+
+    <string name="mbaobj">
+        "To prepare students in applications of information technologies to deliver"
+        "software solutions.\n\n"
+        "The program focuses on –\n\n"
+        "\t\t• Imparting training in latest technologies\n\n"
+        "\t\t• Exposure to best business practices\n\n"
+        "\t\t• Building team leadership qualities and management skills\n\n"
+        "As programme relates to current professional practice and the work place, the students"
+        "are best suited for entry-level positions as:\n\n"
+        "\t\t• Application Programmer: Using latest methodologies, development tools, languages\n\n"
+        "\t\t• Business Analyst: Business development, Pre-sales, Selection and Implementation"
+        "of s/w solutions\n\n"
+        "\t\t• Quality Analyst: Implementation of enterprise level quality models, design /"
+        "implementation of s/w development processes, testing and technical documentation"
+    </string>
+
+    <string name="mbasop">
+        "The assessment of the student for each examination is done, based on relative "
+        "performance. Maximum Grade Point (GP) is 10 corresponding to O (Outstanding). For all "
+        "courses, a student is required to pass both internal and external examination "
+        "separately with a minimum Grade Point of 4 corresponding to Grade P. Students securing "
+        "less than 40% absolute marks in each head of passing will be declared FAIL. The "
+        "University awards a degree to the student who has achieved a minimum CGPA of 4 out "
+        "of maximum of 10 CGPA for the programme."
+    </string>
+
+    <string name="mbasel">
+        "MTCPGEE (Magnum Technology College Post Graduate Entrance Examination) at designated"
+        "center, followed by GDPI (Group Discussion and Personal Interview) of shortlisted"
+        "students at the college campus."
+    </string>
+
+    <string name="mbafee">
+        "An amount of INR 45,000/- has to be paid for each academic year, within ONE MONTH of"
+        "the announced date for fee payment. The entire programme shall hence cost INR 90,000/-"
+    </string>
+
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_bca">bca</string>
+    <string name="title_activity_bba">bba</string>
+    <string name="title_activity_mca">mca</string>
+    <string name="title_activity_mba">mba</string>
 
 
 </resources>

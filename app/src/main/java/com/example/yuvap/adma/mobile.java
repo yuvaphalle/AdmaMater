@@ -63,7 +63,7 @@ public class mobile extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(),"Welcome",Toast.LENGTH_SHORT).show();
 
                 // Redirecting the user to next application page.
-                Intent intent = new Intent(getApplicationContext(), Home.class);
+                Intent intent = new Intent(getApplicationContext(), home2.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(intent);
                 finish();

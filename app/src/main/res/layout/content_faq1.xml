@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.yuvap.adma.faq1"
+    tools:showIn="@layout/activity_faq1">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.yuvap.adma.faq1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/backgroundcolor"
+            android:lineSpacingExtra="5dp"
+            android:padding="16dp"
+            android:text="Note: All details pertaining to any of the programmes (fee structure, duration, programme structure/curriculum, etc.) are present under the respective programmes, under the UG/PG Programmes section on the main menu"
+            android:textColor="@android:color/black"
+            android:textStyle="italic" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/buttonQ1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/lightgray"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:onClick="q1"
+                android:paddingRight="10dp"
+                android:text="What does this app do?"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+            <!--android:textAllCaps="false"-->
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/layoutQ1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/buttonQ1"
+                android:background="@color/backgroundcolor"
+                android:padding="16dp"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_interpolator="accelerate"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:id="@+id/answer1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="none"
+                    android:lineSpacingExtra="5dp"
+                    android:maxLines="100"
+                    android:scrollHorizontally="false"
+                    android:text="@string/faqanswer1"
+                    android:textColor="@android:color/black" />
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button
+                android:id="@+id/buttonQ2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/lightgray"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:onClick="q2"
+                android:paddingRight="10dp"
+                android:text="Why must I sign in to use the app?"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/layoutQ2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/buttonQ2"
+                android:background="@color/backgroundcolor"
+                android:padding="16dp"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_interpolator="accelerate"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:id="@+id/answer2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="none"
+                    android:lineSpacingExtra="5dp"
+                    android:maxLines="100"
+                    android:scrollHorizontally="false"
+                    android:text="@string/faqanswer2"
+                    android:textColor="@android:color/black" />
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button
+                android:id="@+id/buttonQ3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/lightgray"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:onClick="q3"
+                android:paddingRight="10dp"
+                android:text="How is ‘Adma Mater’ better than the paperwork/physical procedure? (traditional)"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/layoutQ3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/buttonQ3"
+                android:background="@color/backgroundcolor"
+                android:padding="16dp"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_interpolator="accelerate"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:id="@+id/answer3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="none"
+                    android:lineSpacingExtra="5dp"
+                    android:maxLines="100"
+                    android:scrollHorizontally="false"
+                    android:text="@string/faqanswer3"
+                    android:textColor="@android:color/black" />
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button
+                android:id="@+id/buttonQ4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/lightgray"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:onClick="q4"
+                android:paddingRight="10dp"
+                android:text="How can I use this app?"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/layoutQ4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/buttonQ4"
+                android:background="@color/backgroundcolor"
+                android:padding="16dp"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_interpolator="accelerate"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:id="@+id/answer4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="none"
+                    android:lineSpacingExtra="5dp"
+                    android:maxLines="100"
+                    android:scrollHorizontally="false"
+                    android:text="@string/faqanswer4"
+                    android:textColor="@android:color/black" />
+
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button
+                android:id="@+id/buttonQ5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/lightgray"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:onClick="q5"
+                android:paddingRight="10dp"
+                android:text="How do I apply for admission to a programme of my choice?"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/layoutQ5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/expandableButton1"
+                android:background="@color/backgroundcolor"
+                android:padding="16dp"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_interpolator="accelerate"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:id="@+id/answer5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="5dp"
+                    android:maxLines="100"
+                    android:text="@string/faqanswer5"
+                    android:textColor="@android:color/black" />
+
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button
+                android:id="@+id/buttonQ6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/lightgray"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:onClick="q6"
+                android:paddingRight="10dp"
+                android:text="What are the freshers’ admission rules?"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/layoutQ6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/expandableButton1"
+                android:background="@color/backgroundcolor"
+                android:padding="16dp"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_interpolator="accelerate"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:id="@+id/answer6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="5dp"
+                    android:maxLines="100"
+                    android:text="@string/faqanswer6"
+                    android:textColor="@android:color/black" />
+
+                <TableLayout
+                    android:id="@+id/tableans6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/answer6"
+                    android:layout_margin="2dp"
+                    android:background="@android:color/black">
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@color/backgroundcolor">
+
+                        <TextView
+                            android:lineSpacingExtra="5dp"
+                            android:text="Sr. No."
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:lineSpacingExtra="5dp"
+                            android:text="Point of time when the student has applied for withdrawal / cancellation of admission"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="70dp"
+                            android:lineSpacingExtra="5dp"
+                            android:text="% of Refund of Aggregate fees *"
+                            android:textColor="@android:color/black" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@color/backgroundcolor">
+
+                        <TextView
+                            android:lineSpacingExtra="5dp"
+                            android:text="1"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:lineSpacingExtra="5dp"
+                            android:text="15 days before the formally notified last date of admission"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="140dp"
+                            android:lineSpacingExtra="5dp"
+                            android:text="90% (After deducting processing charges of 10%)"
+                            android:textColor="@android:color/black" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@color/backgroundcolor">
+
+                        <TextView
+                            android:lineSpacingExtra="5dp"
+                            android:text="2"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:lineSpacingExtra="5dp"
+                            android:text="Not more than 15 days after the formally notified last date of admission"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="140dp"
+                            android:lineSpacingExtra="5dp"
+                            android:text="80%"
+                            android:textColor="@android:color/black" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@color/backgroundcolor">
+
+                        <TextView
+                            android:lineSpacingExtra="5dp"
+                            android:text="3"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:lineSpacingExtra="5dp"
+                            android:text="More than 15 days but less than 30 days after formally notified last date of admission"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="140dp"
+                            android:lineSpacingExtra="5dp"
+                            android:text="50%"
+                            android:textColor="@android:color/black" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@color/backgroundcolor">
+
+                        <TextView
+                            android:lineSpacingExtra="5dp"
+                            android:text="4"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:lineSpacingExtra="5dp"
+                            android:text="More than 30 days after formally notified last date of admission"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="140dp"
+                            android:lineSpacingExtra="5dp"
+                            android:text="0%"
+                            android:textColor="@android:color/black" />
+                    </TableRow>
+                </TableLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tableans6"
+                    android:lineSpacingExtra="5dp"
+                    android:text="*Inclusive of course fees and non-tuition fees but exclusive of caution money"
+                    android:textColor="@android:color/black" />
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button
+                android:id="@+id/buttonQ7"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/lightgray"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:onClick="q7"
+                android:paddingRight="10dp"
+                android:text="What are the important dates pertaining to the admission process I need to be aware of?"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/layoutQ7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/expandableButton1"
+                android:background="@color/backgroundcolor"
+                android:padding="16dp"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_interpolator="accelerate"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:id="@+id/answer7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="5dp"
+                    android:maxLines="100"
+                    android:text="@string/faqanswer7"
+                    android:textColor="@android:color/black" />
+                <TableLayout
+                    android:id="@+id/tableans7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/answer7"
+                    android:layout_margin="2dp"
+                    android:background="@android:color/black">
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@color/backgroundcolor">
+
+                        <TextView
+                            android:lineSpacingExtra="5dp"
+                            android:text="Activity"
+                            android:layout_width="110dp"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="110dp"
+                            android:lineSpacingExtra="5dp"
+                            android:text="Date For MTCCET"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="110dp"
+                            android:lineSpacingExtra="5dp"
+                            android:text="Date for MTCPGEE"
+                            android:textColor="@android:color/black" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@color/backgroundcolor">
+
+                        <TextView
+                            android:lineSpacingExtra="5dp"
+                            android:text="Online registration begins"
+                            android:layout_width="110dp"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="110dp"
+                            android:lineSpacingExtra="5dp"
+                            android:text="December 26, midnight"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="110dp"
+                            android:lineSpacingExtra="5dp"
+                            android:text="December 26, midnight"
+                            android:textColor="@android:color/black" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@color/backgroundcolor">
+
+                        <TextView
+                            android:lineSpacingExtra="5dp"
+                            android:text="Registration closes"
+                            android:layout_width="110dp"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="110dp"
+                            android:lineSpacingExtra="5dp"
+                            android:text="April 10, midnight"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="110dp"
+                            android:lineSpacingExtra="5dp"
+                            android:text="May 10, midnight"
+                            android:textColor="@android:color/black" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@color/backgroundcolor">
+
+                        <TextView
+                            android:lineSpacingExtra="5dp"
+                            android:text="Payment closure date"
+                            android:layout_width="110dp"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="110dp"
+                            android:lineSpacingExtra="5dp"
+                            android:text="Within one week of registration closure"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="110dp"
+                            android:lineSpacingExtra="5dp"
+                            android:text="Within one week of registration closure"
+                            android:textColor="@android:color/black" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@color/backgroundcolor">
+
+                        <TextView
+                            android:lineSpacingExtra="5dp"
+                            android:text="Entrance examination date"
+                            android:layout_width="110dp"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="110dp"
+                            android:lineSpacingExtra="5dp"
+                            android:text="May 3, 11:00 a.m."
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="110dp"
+                            android:lineSpacingExtra="5dp"
+                            android:text="June 3, 11:00 a.m."
+                            android:textColor="@android:color/black" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@color/backgroundcolor">
+
+                        <TextView
+                            android:lineSpacingExtra="5dp"
+                            android:text="Entrance examination result"
+                            android:layout_width="110dp"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="110dp"
+                            android:lineSpacingExtra="5dp"
+                            android:text="May 15, 5:00 p.m."
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="110dp"
+                            android:lineSpacingExtra="5dp"
+                            android:text="June 15, 5:00 p.m."
+                            android:textColor="@android:color/black" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@color/backgroundcolor">
+
+                        <TextView
+                            android:lineSpacingExtra="5dp"
+                            android:text="Schedule for GDPI for the short listed candidates to be displayed on"
+                            android:layout_width="110dp"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="110dp"
+                            android:lineSpacingExtra="5dp"
+                            android:text="May 22, 5:00 p.m. "
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="110dp"
+                            android:lineSpacingExtra="5dp"
+                            android:text="June 22, 5:00 p.m."
+                            android:textColor="@android:color/black" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@color/backgroundcolor">
+
+                        <TextView
+                            android:lineSpacingExtra="5dp"
+                            android:text="GDPI will be conducted at Pune, Delhi, Ahmedabad, and Kolkata on (ALL at 10:00 a.m. to 6:00 p.m.)"
+                            android:layout_width="110dp"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="110dp"
+                            android:lineSpacingExtra="5dp"
+                            android:text="@string/tableanswer7mtccet"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="110dp"
+                            android:lineSpacingExtra="5dp"
+                            android:text="@string/tableanswer7mtcpgee"
+                            android:textColor="@android:color/black" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@color/backgroundcolor">
+
+                        <TextView
+                            android:lineSpacingExtra="5dp"
+                            android:text="Display of the first merit list"
+                            android:layout_width="110dp"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="110dp"
+                            android:lineSpacingExtra="5dp"
+                            android:text="June 15, 5:00 p.m."
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="110dp"
+                            android:lineSpacingExtra="5dp"
+                            android:text="July 15, 5:00 p.m."
+                            android:textColor="@android:color/black" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@color/backgroundcolor">
+
+                        <TextView
+                            android:lineSpacingExtra="5dp"
+                            android:text="Last date for the payment of fees for the first merit list"
+                            android:layout_width="110dp"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="110dp"
+                            android:lineSpacingExtra="5dp"
+                            android:text="Within one week after release of first merit list"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="110dp"
+                            android:lineSpacingExtra="5dp"
+                            android:text="Within one week after release of first merit list"
+                            android:textColor="@android:color/black" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@color/backgroundcolor">
+
+                        <TextView
+                            android:lineSpacingExtra="5dp"
+                            android:text="Display of the second merit list"
+                            android:layout_width="110dp"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="110dp"
+                            android:lineSpacingExtra="5dp"
+                            android:text="June 25, 5:00 p.m."
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="110dp"
+                            android:lineSpacingExtra="5dp"
+                            android:text="July 25, 5:00 p.m."
+                            android:textColor="@android:color/black" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@color/backgroundcolor">
+
+                        <TextView
+                            android:lineSpacingExtra="5dp"
+                            android:text="Last date for the payment of fees for the second merit list"
+                            android:layout_width="110dp"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="110dp"
+                            android:lineSpacingExtra="5dp"
+                            android:text="Within one week after release of second merit list"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="110dp"
+                            android:lineSpacingExtra="5dp"
+                            android:text="Within one week after release of second merit list"
+                            android:textColor="@android:color/black" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@color/backgroundcolor">
+
+                        <TextView
+                            android:lineSpacingExtra="5dp"
+                            android:text="Programme commencement:"
+                            android:layout_width="110dp"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="110dp"
+                            android:lineSpacingExtra="5dp"
+                            android:text="July 1"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="110dp"
+                            android:lineSpacingExtra="5dp"
+                            android:text="August 1"
+                            android:textColor="@android:color/black" />
+                    </TableRow>
+                </TableLayout>
+
+                <TextView
+                    android:id="@+id/answer7p2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="5dp"
+                    android:maxLines="100"
+                    android:layout_below="@+id/tableans7"
+                    android:text="Note: The institute, at its discretion, may decide to announce further Merit List(s)."
+                    android:textColor="@android:color/black" />
+
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button
+                android:id="@+id/buttonQ8"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/lightgray"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:onClick="q8"
+                android:paddingRight="10dp"
+                android:text="What are the different provisions for accommodation?"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/layoutQ8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/buttonQ8"
+                android:background="@color/backgroundcolor"
+                android:padding="16dp"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_interpolator="accelerate"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:id="@+id/answer8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="5dp"
+                    android:maxLines="100"
+                    android:text="@string/faqanswer8"
+                    android:textColor="@android:color/black" />
+
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button
+                android:id="@+id/buttonQ9"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/lightgray"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:onClick="q9"
+                android:paddingRight="10dp"
+                android:text="What are the criteria/details for scholarships at MTC?"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/layoutQ9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/buttonQ9"
+                android:background="@color/backgroundcolor"
+                android:padding="16dp"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_interpolator="accelerate"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:id="@+id/answer9p1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="5dp"
+                    android:maxLines="100"
+                    android:text="@string/faqanswer9p1"
+                    android:textColor="@android:color/black" />
+
+                <TableLayout
+                    android:id="@+id/tableans9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/answer9p1"
+                    android:layout_margin="2dp"
+                    android:background="@android:color/black">
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@color/backgroundcolor">
+
+                        <TextView
+                            android:lineSpacingExtra="5dp"
+                            android:text="Program"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:lineSpacingExtra="5dp"
+                            android:text="No.of scholarships"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:lineSpacingExtra="5dp"
+                            android:text="% of Fee"
+                            android:textColor="@android:color/black" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@color/backgroundcolor">
+
+                        <TextView
+                            android:lineSpacingExtra="5dp"
+                            android:text="MBA-IT"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:lineSpacingExtra="5dp"
+                            android:text="1"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:lineSpacingExtra="5dp"
+                            android:text="50%"
+                            android:textColor="@android:color/black" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@color/backgroundcolor">
+
+                        <TextView
+                            android:lineSpacingExtra="5dp"
+                            android:text="MCA"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:lineSpacingExtra="5dp"
+                            android:text="1"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:lineSpacingExtra="5dp"
+                            android:text="50%"
+                            android:textColor="@android:color/black" />
+                    </TableRow>
+                </TableLayout>
+
+                <TextView
+                    android:id="@+id/answer9p2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tableans9"
+                    android:lineSpacingExtra="5dp"
+                    android:maxLines="100"
+                    android:text="@string/faqanswer9p2"
+                    android:textColor="@android:color/black" />
+
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.admamaterhome.faq">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/activity_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context="com.example.user.admamaterhome.faq1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:lineSpacingExtra="5dp"
+                android:padding="16dp"
+                android:text="@string/faqnote"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/buttonQ1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/lightgray"
+                    android:drawableRight="@android:drawable/arrow_down_float"
+                    android:onClick="q1"
+                    android:paddingRight="10dp"
+                    android:text="What does this app do?"
+                    android:textColor="@android:color/black" />
+                <!--android:textAllCaps="false"-->
+                <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                    android:id="@+id/layoutQ1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/buttonQ1"
+                    android:background="@color/backgroundcolor"
+                    android:padding="6dp"
+                    app:ael_duration="400"
+                    app:ael_expanded="false"
+                    app:ael_interpolator="accelerate"
+                    app:ael_orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/answer1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="5dp"
+                        android:maxLines="100"
+                        android:text="@string/faqanswer1"
+                        android:textColor="@android:color/black" />
+                </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+                <Button
+                    android:id="@+id/buttonQ2"
+                    android:layout_width="fill_parent"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:background="@color/lightgray"
+                    android:drawableRight="@android:drawable/arrow_down_float"
+                    android:onClick="q2"
+                    android:paddingRight="10dp"
+                    android:text="Why must I sign in to use the app?"
+                    android:textColor="@android:color/black" />
+
+                <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                    android:id="@+id/layoutQ2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/buttonQ2"
+                    android:background="@color/backgroundcolor"
+                    android:padding="16dp"
+                    app:ael_duration="400"
+                    app:ael_expanded="false"
+                    app:ael_interpolator="accelerate"
+                    app:ael_orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="5dp"
+                        android:ellipsize="none"
+                        android:maxLines="100"
+                        android:scrollHorizontally="false"
+                        android:text="@string/faqanswer2"
+                        android:textColor="@android:color/black"
+                        android:id="@+id/answer2"/>
+                </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+                <Button
+                    android:id="@+id/buttonQ3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/lightgray"
+                    android:drawableRight="@android:drawable/arrow_down_float"
+                    android:onClick="q3"
+                    android:paddingRight="10dp"
+                    android:text="How is ‘Adma Mater’ better than the paperwork/physical procedure? (traditional)"
+                    android:textColor="@android:color/black" />
+
+                <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                    android:id="@+id/layoutQ3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/buttonQ3"
+                    android:background="@color/backgroundcolor"
+                    android:padding="16dp"
+                    app:ael_duration="400"
+                    app:ael_expanded="false"
+                    app:ael_interpolator="accelerate"
+                    app:ael_orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="5dp"
+                        android:ellipsize="none"
+                        android:maxLines="100"
+                        android:scrollHorizontally="false"
+                        android:text="@string/faqanswer3"
+                        android:textColor="@android:color/black"
+                        android:id="@+id/answer3" />
+                </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+                <Button
+                    android:id="@+id/buttonQ4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/lightgray"
+                    android:drawableRight="@android:drawable/arrow_down_float"
+                    android:onClick="q4"
+                    android:paddingRight="10dp"
+                    android:text="How can I use this app?"
+                    android:textColor="@android:color/black" />
+
+                <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                    android:id="@+id/layoutQ4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/buttonQ4"
+                    android:background="@color/backgroundcolor"
+                    android:padding="16dp"
+                    app:ael_duration="400"
+                    app:ael_expanded="false"
+                    app:ael_interpolator="accelerate"
+                    app:ael_orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="5dp"
+                        android:ellipsize="none"
+                        android:maxLines="100"
+                        android:scrollHorizontally="false"
+                        android:text="@string/faqanswer4"
+                        android:textColor="@android:color/black"
+                        android:id="@+id/answer4"/>
+
+                </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+                <Button
+                    android:id="@+id/buttonQ5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/lightgray"
+                    android:drawableRight="@android:drawable/arrow_down_float"
+                    android:onClick="q5"
+                    android:paddingRight="10dp"
+                    android:text="How do I apply for admission to a programme of my choice?"
+                    android:textColor="@android:color/black" />
+
+                <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                    android:id="@+id/layoutQ5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/expandableButton1"
+                    android:background="@color/backgroundcolor"
+                    android:padding="16dp"
+                    app:ael_duration="400"
+                    app:ael_expanded="false"
+                    app:ael_interpolator="accelerate"
+                    app:ael_orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/answer5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="5dp"
+                        android:maxLines="100"
+                        android:text="@string/faqanswer5"
+                        android:textColor="@android:color/black" />
+
+                </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+                <Button
+                    android:id="@+id/buttonQ6"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/lightgray"
+                    android:drawableRight="@android:drawable/arrow_down_float"
+                    android:onClick="q6"
+                    android:paddingRight="10dp"
+                    android:text="What are the freshers’ admission rules?"
+                    android:textColor="@android:color/black" />
+
+                <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                    android:id="@+id/layoutQ6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/expandableButton1"
+                    android:background="@color/backgroundcolor"
+                    android:padding="16dp"
+                    app:ael_duration="400"
+                    app:ael_expanded="false"
+                    app:ael_interpolator="accelerate"
+                    app:ael_orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/answer6"
+                        android:text="@string/faqanswer6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="5dp"
+                        android:maxLines="100"
+
+                        android:textColor="@android:color/black"/>
+
+                </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:textSize="25sp"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

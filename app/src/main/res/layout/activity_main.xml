@@ -20,7 +20,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="150dp"
             android:text="AdmaMater"
-            android:textColor="@color/yello"
+            android:textColor="@color/colorPrimaryDark"
             android:textSize="60sp"
             android:textStyle="bold" />
 
@@ -31,7 +31,7 @@
             android:layout_marginTop="50dp"
             android:text="Admission Made Easy"
             android:textAlignment="center"
-            android:textColor="@color/yello"
+            android:textColor="@color/colorPrimaryDark"
             android:textSize="30sp" />
     </LinearLayout>
 

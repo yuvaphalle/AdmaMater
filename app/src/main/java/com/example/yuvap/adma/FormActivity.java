@@ -25,6 +25,7 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Random;
 
 public class FormActivity extends AppCompatActivity implements GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener {
 
@@ -50,6 +51,8 @@ public class FormActivity extends AppCompatActivity implements GoogleApiClient.C
         final EditText lastName = findViewById(R.id.lastName);
         Button registerButton = findViewById(R.id.register);
 
+
+
         submit=(LinearLayout) findViewById(R.id.submit);
         downtoup = AnimationUtils.loadAnimation(this,R.anim.downtoup);
         submit.setAnimation(downtoup);
@@ -62,6 +65,21 @@ public class FormActivity extends AppCompatActivity implements GoogleApiClient.C
                 final String firstname = firstName.getText().toString();
                 final String lastname = lastName.getText().toString();
 
+
+                Random rand = new Random();
+
+                // Generate random integers in range 0 to 999
+                int rannum = rand.nextInt(100000);
+
+                String neww= Integer.toString(rannum);
+
+                final String applicationno = firstname+lastname+neww;
+
+                //Toast.makeText(getApplicationContext(), "vlaue is "+hello, Toast.LENGTH_LONG).show();
+                // Print random integers
+//                System.out.println("Random Integers: "+rannum);
+
+
                 if (firstname.length()==0){
                     Toast.makeText(getApplicationContext(),"Please enter your first name",Toast.LENGTH_SHORT).show();
                 }
@@ -71,8 +89,11 @@ public class FormActivity extends AppCompatActivity implements GoogleApiClient.C
                 }
 
                 else {
-                                        final DatabaseReference myRef = FirebaseDatabase.getInstance().getReference();
-                                        myRef.child("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).addListenerForSingleValueEvent(
+                    final DatabaseReference myRef = FirebaseDatabase.getInstance().getReference();
+                    final String userId = FirebaseAuth.getInstance().getCurrentUser().getUid();
+
+
+                    myRef.child("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).addListenerForSingleValueEvent(
                                                 new ValueEventListener() {
                                                     @Override
                                                     public void onDataChange(DataSnapshot dataSnapshot) {
@@ -86,6 +107,8 @@ public class FormActivity extends AppCompatActivity implements GoogleApiClient.C
                                                                     Map<String,String> userDetails = new HashMap<>();
                                                                     userDetails.put("FirstName",firstname);
                                                                     userDetails.put("LastName",lastname);
+                                                                    userDetails.put("userID",userId);
+                                                                    userDetails.put("ApplicationNumber",applicationno);
                                                                     userDetails.put("flag","false");
                                                                     DatabaseReference myRefs = FirebaseDatabase
                                                                             .getInstance()
